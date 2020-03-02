@@ -96,12 +96,57 @@
   <div class="bg-white mb3 pa4 gray overflow-hidden">
     <span class="f6 db">Posts</span>
     <h1 class="f3 near-black">
-      <a href="http://example.org/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/" class="link black dim">
-        开博大吉
+      <a href="http://example.org/posts/%E5%A6%82%E4%BD%95%E7%94%A8-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="link black dim">
+        如何用 hugo 搭建个人博客
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      大家好 我的博客开通了，希望我能写出好文章给大家看。
+      如何用 hugo 搭建个人博客 步骤 1：安装 Hugo 在 code 中输入
+brew install hugo
+安装后验证安装
+hugo version
+步骤 2：建立新仓库 先进入你的 D:/software
+cd /d/:software
+xxx 输入用户名（用小写）
+hugo new site xxx.github.io.creator
+用 code 打开刚创建的新目录 xxx.github.io.creator
+步骤 3：添加主题 git init
+git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+echo 'theme = &quot;ananke&quot;' &gt;&gt; config.toml
+步骤 4：添加一些内容 输入hugo new posts/开博大吉.md
+文件会被创建在 content\posts\开博大吉.md
+title: &quot;My First Post&quot; date: 2019-03-26T08:47:11+01:00 draft: true 再将 true 改成 false
+步骤 5：启动 Hugo 服务器 现在，在启用草稿的情况下启动 Hugo 服务器
+    </div>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="http://example.org/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/" class="link black dim">
+        如何用 hugo 搭建个人博客
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      如何用 hugo 搭建个人博客 步骤 1：安装 Hugo 在 code 中输入
+brew install hugo
+安装后验证安装
+hugo version
+步骤 2：建立新仓库 先进入你的 D:/software
+cd /d/:software
+xxx 输入用户名（用小写）
+hugo new site xxx.github.io.creator
+用 code 打开刚创建的新目录 xxx.github.io.creator
+步骤 3：添加主题 git init
+git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+echo 'theme = &quot;ananke&quot;' &gt;&gt; config.toml
+步骤 4：添加一些内容 输入hugo new posts/开博大吉.md
+文件会被创建在 content\posts\开博大吉.md
+title: &quot;My First Post&quot; date: 2019-03-26T08:47:11+01:00 draft: true 再将 true 改成 false
+步骤 5：启动 Hugo 服务器 现在，在启用草稿的情况下启动 Hugo 服务器
     </div>
   </div>
 </div>
